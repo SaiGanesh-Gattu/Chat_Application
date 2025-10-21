@@ -13,9 +13,5 @@ public class ChatApplication {
         SpringApplication.run(ChatApplication.class, args);
 	}
 
-    @GetMapping("/hello")
-    public String helloWorld(){
-        return "Hello World";
-    }
 
 }
